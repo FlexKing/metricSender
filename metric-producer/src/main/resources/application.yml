@@ -1,0 +1,8 @@
+#kafka
+kafka:
+  bootstrap-servers: 127.0.0.1:29092
+  topic: "testTopic"
+
+app:
+  batch-size: 100
+  cron: "0 0/5 * * * *"
